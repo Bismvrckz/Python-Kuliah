@@ -52,13 +52,13 @@
 # 			jumlah_index_genap += input_list[i]
 # 		else:
 # 			jumlah_index_ganjil += input_list[i]
-# 	print(f'Total elemen indeks ganjil: {jumlah_index_ganjil}')
-# 	print(f'Total elemen indeks genap: {jumlah_index_genap}')
+# 	print(f'Total elemen indeks ganjil:  {jumlah_index_ganjil}')
+# 	print(f'Total elemen indeks genap:  {jumlah_index_genap}')
 
-def kuadrat_list(input_list):
-    output_list = []
+# def kuadrat_list(input_list):
+#     output_list = []
 
-    for i in range(len(input_list)):
-        output_list.append(input_list[i]**2)
+#     for i in range(len(input_list)):
+#         output_list.append(input_list[i]**2)
     
-    return output_list
+#     return output_list
