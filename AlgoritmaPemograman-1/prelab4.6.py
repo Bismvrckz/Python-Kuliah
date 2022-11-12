@@ -51,3 +51,29 @@
 #     print(f'Inisial nama Anda: {split[0][0]}. {split[1][0]}.')
    
 # main()
+
+def main():
+    format_tanggal = input('Masukkan tanggal dalam format hh/bb/tttt: ')
+    split_tanggal = format_tanggal.split('/')
+
+    bulan_lookup =['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember']
+
+    i_bulan = split_tanggal[1]
+
+    if i_bulan[0] == '0':
+        i_bulan = int(i_bulan[1:])
+    else:
+        i_bulan = int(i_bulan)
+
+    if split_tanggal[0][0] == "0":
+        split_tanggal[0] = int(split_tanggal[0][1:])
+
+    if i_bulan < 1 or i_bulan > 12:
+        print('Anda tidak memasukkan tanggal yang benar.')
+        return
+
+    print(split_tanggal[0], bulan_lookup[i_bulan-1], split_tanggal[2])
+
+
+
+main()
