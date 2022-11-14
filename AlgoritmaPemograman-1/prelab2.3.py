@@ -1,0 +1,1 @@
+print(f'Terdapat stock buah sebanyak {stok:,} dengan harga satuan Rp. {harga_satuan:,.2f}.')

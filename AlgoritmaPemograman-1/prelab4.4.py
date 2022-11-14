@@ -38,3 +38,27 @@
 
     
 #     return huruf_besar
+
+# def jumlah_list(input_list):
+# 	jumlah_index_ganjil=0
+# 	jumlah_index_genap=0
+
+# 	for i in range(len(input_list)):
+# 		if i == 0:
+# 			jumlah_index_genap += input_list[i]
+# 			continue
+		
+# 		if i % 2 == 0:
+# 			jumlah_index_genap += input_list[i]
+# 		else:
+# 			jumlah_index_ganjil += input_list[i]
+# 	print(f'Total elemen indeks ganjil:  {jumlah_index_ganjil}')
+# 	print(f'Total elemen indeks genap:  {jumlah_index_genap}')
+
+# def kuadrat_list(input_list):
+#     output_list = []
+
+#     for i in range(len(input_list)):
+#         output_list.append(input_list[i]**2)
+    
+#     return output_list

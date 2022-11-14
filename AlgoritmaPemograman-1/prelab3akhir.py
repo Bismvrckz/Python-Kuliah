@@ -17,6 +17,12 @@
 #         print('{0} detik'.format(detik))
 # main()
 
+
+
+
+
+
+
 # def main():
 #     lanjut = 'y'
 

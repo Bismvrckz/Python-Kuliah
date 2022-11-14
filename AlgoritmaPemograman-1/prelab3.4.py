@@ -20,6 +20,12 @@
 
 # main()
 
+
+
+
+
+
+
 # def main():
 #     gaji = int(input('Masukkan gaji Anda: '))
 #     lamaBekerja = int(input('Lama bekerja (tahun): '))

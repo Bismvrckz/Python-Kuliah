@@ -4,6 +4,10 @@
 # print('Persegi panjang dengan panjang = {0} cm dan lebar = {1} cm mempunyai luas = {2} cm2 dan keliling = {3} cm.'.format(panjang, lebar, panjang*lebar, (panjang+lebar)*2))
 
 
+
+
+
+
 # import math
 
 # detikTotal = int(input('Masukkan waktu dalam detik: '))
