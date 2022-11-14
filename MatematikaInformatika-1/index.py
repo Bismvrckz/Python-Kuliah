@@ -1,3 +1,8 @@
+A = {1,2,3,4,5}
+
+print(4 in A)
+print(-2 in A)
+
 # A = [1,6,8,9,11]                                      
 # for x in range(5):                                     
 #   print(A[x])
