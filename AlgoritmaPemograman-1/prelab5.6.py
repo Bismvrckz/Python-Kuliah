@@ -4,7 +4,7 @@
 # except IOError:
 #     print('Kode ini menyebabkan IOError.')
 # except ValueError:    
-#     print('Kode ini menyebabkan ValueError.') <-- Jawaban 1
+#     print('Kode ini menyebabkan ValueError.') <-- Jawaban 1 = (Kode ini menyebabkan ValueError.)
 
 # try:
 #     y = int('x1010')
@@ -14,7 +14,7 @@
 # except ZeroDivisionError:
 #     print('Kode ini menyebabkan ZeroDivisionError.')
 # except:
-#     print('Sebuah error terjadi.') <-- Jawaban 2
+#     print('Sebuah error terjadi.') <-- Jawaban 2 = (Sebuah error akan terjadi.)
 
 # def main():
 #     try:
