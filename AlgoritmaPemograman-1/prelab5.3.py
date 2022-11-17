@@ -1,11 +1,8 @@
+# import random
 # def main():
-#     with open('angka_float.txt','r') as file:
-#         float1 = float(file.readline())
-#         float2 = float(file.readline())
-#     hasil = float1 * float2
-#     print(f'Baris 1 file angka_float.txt berisi: {float1}')
-#     print(f'Baris 2 file angka_float.txt berisi: {float2}')
-#     print(f'Hasil kali baris 1 dan baris 2 = {hasil:.2f}')
+#     with open('daftar_angka.txt', 'a') as file_angka:
+#         for i in range(0,100):
+#             file_angka.write(str(random.randint(1,100)) + "\n")       
 # main()
 
 # def main():
