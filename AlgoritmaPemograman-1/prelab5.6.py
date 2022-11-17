@@ -14,7 +14,7 @@
 # except ZeroDivisionError:
 #     print('Kode ini menyebabkan ZeroDivisionError.')
 # except:
-#     print('Sebuah error terjadi.') <-- Jawaban 2 = (Sebuah error akan terjadi.)
+#     print('Sebuah error terjadi.') <-- Jawaban 2 = (Sebuah error terjadi.)
 
 # def main():
 #     try:
