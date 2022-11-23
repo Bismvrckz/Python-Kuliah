@@ -1,14 +1,14 @@
-# def sortir(data):
-#     data.sort()
-#     return data
+def sortir(data):
+    data.sort()
+    return data
 
-# def median(data):
-#     sorted_data = sortir(data)
+def median(data):
+    sorted_data = sortir(data)
     
-#     if len(sorted_data) % 2 == 0:
-#         return float(sorted_data[int(len(sorted_data)/2-1)]) + 0.5
-#     else:
-#         return sorted_data[int((len(sorted_data)-1)/2)]
+    if len(sorted_data) % 2 == 0:
+        return float(sorted_data[int(len(sorted_data)/2-1)]) + 0.5
+    else:
+        return sorted_data[int((len(sorted_data)-1)/2)]
 
 # def indeks_minimum(data):
 #     return data
